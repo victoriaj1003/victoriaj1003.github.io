@@ -1,0 +1,65 @@
+.wrapper {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#greeting {
+	font-family: Helvetica;
+	color: #F24A70;
+	font-size: 200px;
+	
+}
+
+#aboutinfo, #projectsinfo, #contactinfo {
+	font-family: Helvetica, sans-serif;
+	color: #D8D8D8;
+	font-size: 200px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#home, #about, #projects, #contact {
+	height: 705px;
+	border: 1px solid grey;
+}
+
+.flex-container-right {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+#navbar {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	color: #D8D8D8;
+	font-size: 50px;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+ul {
+	font-family: Helvetica, sans-serif;
+	color: #D8D8D8;
+	margin: 5px 10px;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	color: #D8D8D8;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	display: inline;
+	color: #D8D8D8;
+	padding: 5px;
+	font-size: 50px;
+}
+
+
