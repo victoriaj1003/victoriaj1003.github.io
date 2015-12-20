@@ -1,12 +1,18 @@
+body {
+  overflow: hidden; }
+
 .wrapper {
   margin-left: 20px;
   margin-right: 20px; }
 
 #greeting {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   color: #F24A70;
   font-size: 200px; }
 
+/* #greeting:hover {
+  font-size: 203px;
+} */
 #aboutinfo, #projectsinfo, #contactinfo {
   font-family: Helvetica, sans-serif;
   color: #D8D8D8;
@@ -15,13 +21,20 @@
   margin-right: 10px; }
 
 #home, #about, #projects, #contact {
-  height: 705px;
-  border: 1px solid grey; }
+  height: 705px; }
+
+.abouttext, .projectstext, .contacttext {
+  font-family: Helvetica, sans-serif; }
 
 .flex-container-right {
   display: flex;
   align-items: center;
   flex-direction: row-reverse; }
+
+.flex-container-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
 
 #navbar {
   text-decoration: none;
@@ -30,7 +43,12 @@
   font-size: 50px;
   text-align: right;
   margin-right: 10px;
-  margin-top: 10px; }
+  margin-top: -10px;
+  padding-top: 15px;
+  position: fixed;
+  width: 97%;
+  background-color: white;
+  visibility: hidden; }
 
 ul {
   font-family: Helvetica, sans-serif;
