@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!DOCUMENT html>
 <html>
 	<head>
 		<meta charset UTF-8>
 		<link rel="stylesheet" href="styles/main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+
 	</head>
 
 	<body>
@@ -18,19 +19,32 @@
 					<li><a href="#contact">contact</a></li>			
 				</ul>
 			</nav>
+
 			<div id="home" class="flex-container-left">
-				<h1 id="greeting">hello</h1>
+				<h1 onClick="unhide()" id="greeting">hello</h1>
 			</div>
+
 			<div id="about" class="flex-container-right">
-				<h1 id="aboutinfo">about</hi>
+				<h1 id="aboutinfo">about</h1>
+				<div class="abouttext">
+					<p>I am a junior fullstack developer in Brooklyn, NY.  I am passionate about art and design, a casual photographer, love to dance and have far too many bikes for one person.  I strive to build beautiful, user friendly web apps.</p>
+				</div>
 			</div>
+
 			<div id="projects" class="flex-container-right">
 				<h1 id="projectsinfo">projects</h1>
+				<div class="projectstext">
+					<h3>Art Collector</h3>
+					<h3>Discover My City</h3>
+				</div>
 			</div>
+
 			<div id="contact" class="flex-container-right">
 				<h1 id="contactinfo">contact</h1>
 			</div>
 		</div>
+    <script src="scripts/main.js"></script>
+
 	</body>
 
 </html>
