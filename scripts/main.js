@@ -12,14 +12,9 @@ function unhide() {
 $( document ).ready(function() {
 	console.log("ready freddy");
 
-	
 
-/*function unhide() {
- document.getElementByID('navbar').style.visibility = 'visible';
-} */
 
-	// $("greeting1").fadeOut(1000);
-	// $("greeting2").fadeIn(1000);
+
 
 
 });
