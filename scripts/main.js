@@ -12,9 +12,7 @@ function unhide() {
 $( document ).ready(function() {
 	console.log("ready freddy");
 
-
-
-
+	
 
 
 });
