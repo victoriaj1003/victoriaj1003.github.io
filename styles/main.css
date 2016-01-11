@@ -71,12 +71,11 @@ a {
 
 #artcollector1 {
   width: 450px;
-  height: auto;
-  display: none; }
+  height: auto; }
 
 #discovermycity1 {
   width: 450px;
   height: auto;
-  display: none; }
+  margin-right: 50%; }
 
 /*# sourceMappingURL=main.css.map */
