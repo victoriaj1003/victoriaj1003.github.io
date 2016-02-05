@@ -6,6 +6,7 @@ function unhide() {
   document.body.style.overflow = "visible";
   
   document.getElementById('greeting').innerHTML = " i'm victoria";
+  	$("#greeting").css("cursor", "default");
   
 }
 
