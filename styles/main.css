@@ -11,6 +11,9 @@ body {
   font-size: 200px;
   cursor: pointer; }
 
+#greeting:hover {
+  font-size: 202px; }
+
 /* #greeting:hover {
   font-size: 203px;
 } */
@@ -75,6 +78,9 @@ a {
 a:hover {
   color: #F24A70; }
 
+#burger {
+  visibility: hidden; }
+
 #artcollector1 {
   width: 350px;
   height: auto;
@@ -82,7 +88,7 @@ a:hover {
   cursor: pointer; }
 
 #acdescription {
-  display: none; }
+  display: inline-block; }
 
 #discovermycity1 {
   width: 350px;
@@ -90,7 +96,7 @@ a:hover {
   cursor: pointer; }
 
 #dmcdescription {
-  display: none; }
+  display: inline-block; }
 
 .fa {
   color: #D8D8D8; }
@@ -109,6 +115,9 @@ a:hover {
     font-size: 160px;
     cursor: pointer; }
 
+  #greeting:hover {
+    font-size: 162px; }
+
   #aboutinfo, #projectsinfo, #contactinfo {
     font-family: Helvetica, sans-serif;
     color: #D8D8D8;
@@ -166,20 +175,23 @@ a:hover {
     padding: 5px;
     font-size: 30px; }
 
+  #burger {
+    visibility: hidden; }
+
   #artcollector1 {
     width: 300px;
     height: auto;
     box-shadow: none; }
 
   #acdescription {
-    display: none; }
+    display: inline-block; }
 
   #discovermycity1 {
     width: 300px;
     height: auto; }
 
   #dmcdescription {
-    display: none; }
+    display: inline-block; }
 
   .fa {
     color: #D8D8D8; }
@@ -196,6 +208,9 @@ a:hover {
     color: #F24A70;
     font-size: 140px;
     cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 142px; }
 
   #aboutinfo, #projectsinfo, #contactinfo {
     font-family: Helvetica, sans-serif;
@@ -254,20 +269,23 @@ a:hover {
     padding: 5px;
     font-size: 30px; }
 
+  #burger {
+    visibility: hidden; }
+
   #artcollector1 {
     width: 250px;
     height: auto;
     box-shadow: none; }
 
   #acdescription {
-    display: none; }
+    display: inline-block; }
 
   #discovermycity1 {
     width: 250px;
     height: auto; }
 
   #dmcdescription {
-    display: none; }
+    display: inline-block; }
 
   .fa {
     color: #D8D8D8; }
@@ -284,6 +302,9 @@ a:hover {
     color: #F24A70;
     font-size: 140px;
     cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 142px; }
 
   /* #greeting:hover {
     font-size: 203px;
@@ -345,27 +366,30 @@ a:hover {
     padding: 5px;
     font-size: 25px; }
 
+  #burger {
+    visibility: hidden; }
+
   #artcollector1 {
     width: 250px;
     height: auto;
     box-shadow: none; }
 
   #acdescription {
-    display: none; }
+    display: inline-block; }
 
   #discovermycity1 {
     width: 250px;
     height: auto; }
 
   #dmcdescription {
-    display: none; }
+    display: inline-block; }
 
   .fa {
     color: #D8D8D8; }
 
   .fa:hover {
     color: #F24A70; } }
-@media all and (max-width: 850px) {
+@media all and (max-width: 950px) {
   .wrapper {
     margin-left: 12px;
     margin-right: 12px; }
@@ -375,6 +399,9 @@ a:hover {
     color: #F24A70;
     font-size: 100px;
     cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 102px; }
 
   /* #greeting:hover {
     font-size: 203px;
@@ -387,7 +414,7 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 705px; }
+    height: 175%; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -435,14 +462,23 @@ a:hover {
     padding: 5px;
     font-size: 25px; }
 
+  #burger {
+    visibility: hidden; }
+
   #artcollector1 {
     width: 300px;
     height: auto;
     box-shadow: none; }
 
+  #acdescription {
+    display: inline-block; }
+
   #discovermycity1 {
     width: 300px;
     height: auto; }
+
+  #dmcdescription {
+    display: inline-block; }
 
   .fa {
     color: #D8D8D8; }
@@ -451,14 +487,17 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 768px) {
   .wrapper {
-    margin-left: 12px;
-    margin-right: 12px; }
+    margin-left: 5px;
+    margin-right: 5px; }
 
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 100px;
+    font-size: 90px;
     cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 92px; }
 
   /* #greeting:hover {
     font-size: 203px;
@@ -467,11 +506,11 @@ a:hover {
     font-family: Helvetica, sans-serif;
     color: #D8D8D8;
     font-size: 100px;
-    text-align: right;
+    text-align: left;
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 705px; }
+    height: 175%; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -519,30 +558,42 @@ a:hover {
     padding: 5px;
     font-size: 25px; }
 
+  #burger {
+    visibility: hidden; }
+
   #artcollector1 {
     width: 300px;
     height: auto;
     box-shadow: none; }
 
+  #acdescription {
+    display: inline-block; }
+
   #discovermycity1 {
     width: 300px;
     height: auto; }
+
+  #dmcdescription {
+    display: inline-block; }
 
   .fa {
     color: #D8D8D8; }
 
   .fa:hover {
     color: #F24A70; } }
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
   .wrapper {
-    margin-left: 10px;
-    margin-right: 10px; }
+    margin-left: 5px;
+    margin-right: 5px; }
 
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 100px;
+    font-size: 85px;
     cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 87px; }
 
   /* #greeting:hover {
     font-size: 203px;
@@ -550,12 +601,12 @@ a:hover {
   #aboutinfo, #projectsinfo, #contactinfo {
     font-family: Helvetica, sans-serif;
     color: #D8D8D8;
-    font-size: 100px;
+    font-size: 85px;
     text-align: top;
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 705px; }
+    height: 200%; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -574,9 +625,9 @@ a:hover {
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     color: #D8D8D8;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-top: -10px;
     padding-top: 15px;
     position: fixed;
@@ -601,21 +652,24 @@ a:hover {
     display: inline;
     color: #D8D8D8;
     padding: 5px;
-    font-size: 30px; }
+    font-size: 20px; }
 
-  #artcollector1 {
-    width: 250px;
-    height: auto;
-    box-shadow: none; }
-
-  #discovermycity1 {
-    width: 250px;
-    height: auto; }
-
-  .fa {
-    color: #D8D8D8; }
-
-  .fa:hover {
-    color: #F24A70; } }
+  #burger {
+    visibility: hidden; }
+    #burger #artcollector1 {
+      width: 250px;
+      height: auto;
+      box-shadow: none; }
+    #burger #acdescription {
+      display: inline-block; }
+    #burger #discovermycity1 {
+      width: 250px;
+      height: auto; }
+    #burger #dmcdescription {
+      display: inline-block; }
+    #burger .fa {
+      color: #D8D8D8; }
+    #burger .fa:hover {
+      color: #F24A70; } }
 
 /*# sourceMappingURL=main.css.map */
