@@ -41,7 +41,7 @@ body {
 }
 
 #home, #about, #projects, #contact {
-	height: 705px;
+	height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -188,7 +188,7 @@ a:hover {
 }
 
 #home, #about, #projects, #contact {
-	height: 705px;
+	height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -328,7 +328,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 705px;
+	height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -468,7 +468,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 705px;
+	height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -607,6 +607,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 175%;
+	// height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -719,12 +720,12 @@ a {
 #greeting {
 	font-family: Helvetica, sans-serif;
 	color: #F24A70;
-	font-size: 90px;
+	font-size: 95px;
 	cursor: pointer;
 }
 
 	#greeting:hover {
-		font-size: 90px;
+		font-size: 95px;
 	}
 	// #clickme {
 	// 	visibility: hidden;
@@ -750,6 +751,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 175%;
+	// height: 100vh;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -829,21 +831,26 @@ a {
 	margin-right: 10px;
 }
 
-#menuitems {
-	border: 1px solid black;
-	width: 75px;    
+#menuItems {
+	// border: 1px solid black;
+	width: 65px;    
 	display: none;
   position: absolute;
+  text-align: right;
+  margin-left: 65%;
+ 	margin-right: 10px;
+  // padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-#menuitems ul {
+#menuItems ul {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
 	margin: 5px 10px;
 	padding: 5px;
 }
 
-#menuitems li {
+#menuItems li {
 	display: block;
 	text-decoration: none;
 	color: #D8D8D8;
@@ -851,7 +858,7 @@ a {
 	margin-right: 5px;
 }
 
-#menuitems a {
+#menuItems a {
 	text-decoration: none;
 	// display: inline;
 	color: #D8D8D8;
@@ -859,7 +866,7 @@ a {
 	font-size: 15px;
 }
 
-#menuitems a:hover {
+#menuItems a:hover {
 	color: #F24A70;
 }
 
@@ -922,6 +929,9 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 200%;
+	// height: 100vh;
+	// margin-top: 10px;
+	// margin-bottom: 10px;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -998,11 +1008,16 @@ a {
 	margin-right: 10px;
 }
 
-#menuitems {
-	border: 1px solid black;
-	width: 75px;    
+#menuItems {
+	// border: 1px solid black;
+	width: 65px;    
 	display: none;
   position: absolute;
+  text-align: right;
+  margin-left: 65%;
+ 	margin-right: 10px;
+  // padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 #menuitems ul {

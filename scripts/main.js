@@ -13,31 +13,6 @@ function unhide() {
 		document.getElementById('topbar').style.visibility = 'visible';
 }
 
-// 	// if hamburger is clicked on, list becomes visible
-// document.getElementById("burger").onclick = function() {dropMenu()};
-// 	console.log('dropMenu was found');
-
-// // dropdown toggles between show and hide
-// 	function dropMenu() {
-// 		document.getElementById("menuItems").classList.toggle("show");
-// 	}
-
-// 	// closes the menu if user clicks outside of it
-// 	window.onClick = function(event) {
-// 		if (!event.target.matches('#burger')) {
-// 			var dropdown = document.getElementByClassName("menu-content");
-// 			var i;
-// 			for (i = 0; i < dropdown.length; i++) {
-// 				var openDrop = dropdown[i];
-// 				if (openDrop.classList.contains('show')) {
-// 					openDrop.classList.remove('show');
-// 				}
-// 			}
-// 		}
-// 	}
-
-
-
 
 
 $( document ).ready(function() {
@@ -45,7 +20,7 @@ $( document ).ready(function() {
 
 	function sizeMatters() {
 
-		if($(window).width() < 526) {
+		if($(window).width() < 523) {
 			$("#navbar").hide();
 			$("#burger").show();
 			console.log("burger showing");
@@ -59,6 +34,13 @@ $( document ).ready(function() {
 	$(window).load(sizeMatters);
 	$(window).resize(sizeMatters);
 
+
+	$('.fa-bars').click(function() {
+		$('#menuItems').toggle();
+		console.log("got to the dropdown stuff");
+	})
+
+// open dropdown menu when hovering over hamburger
 
 
 
