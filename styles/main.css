@@ -3,8 +3,7 @@ body {
 
 .wrapper {
   margin-left: 20px;
-  margin-right: 20px;
-  background-color: black; }
+  margin-right: 20px; }
 
 #greeting {
   font-family: Helvetica, sans-serif;
