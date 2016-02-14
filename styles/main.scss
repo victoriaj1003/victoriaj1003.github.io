@@ -43,6 +43,7 @@ body {
 
 #home, #about, #projects, #contact {
 	height: 100%;
+	border: 1px solid grey;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -190,6 +191,7 @@ a:hover {
 
 #home, #about, #projects, #contact {
 	height: 100%;
+	border: 1px solid red;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -330,6 +332,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 100%;
+	border: 1px solid green;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -470,6 +473,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 150%;
+	border: 1px solid yellow;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -608,6 +612,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 175%;
+	border: 1px solid blue;
 	// height: 100vh;
 }
 
@@ -752,6 +757,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 175%;
+	border: 1px solid pink;
 	// height: 100vh;
 }
 
@@ -930,6 +936,7 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 200%;
+	border: 1px solid purple;
 	// height: 100vh;
 	// margin-top: 10px;
 	// margin-bottom: 10px;

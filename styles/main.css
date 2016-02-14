@@ -26,7 +26,8 @@ body {
   margin-right: 10px; }
 
 #home, #about, #projects, #contact {
-  height: 100%; }
+  height: 100%;
+  border: 1px solid grey; }
 
 .abouttext, .projectstext, .contacttext {
   font-family: Helvetica, sans-serif;
@@ -129,7 +130,8 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 100%; }
+    height: 100%;
+    border: 1px solid red; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -225,7 +227,8 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 100%; }
+    height: 100%;
+    border: 1px solid green; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -324,7 +327,8 @@ a:hover {
     margin-right: 15px; }
 
   #home, #about, #projects, #contact {
-    height: 150%; }
+    height: 150%;
+    border: 1px solid yellow; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -423,7 +427,8 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 175%; }
+    height: 175%;
+    border: 1px solid blue; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -521,7 +526,8 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 175%; }
+    height: 175%;
+    border: 1px solid pink; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
@@ -659,7 +665,8 @@ a:hover {
     margin-right: 10px; }
 
   #home, #about, #projects, #contact {
-    height: 200%; }
+    height: 200%;
+    border: 1px solid purple; }
 
   .abouttext, .projectstext, .contacttext {
     font-family: Helvetica, sans-serif; }
