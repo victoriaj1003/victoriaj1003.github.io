@@ -18,20 +18,6 @@ body {
 	font-size: 200px;
 }
 
-	// #clickme {
-	// 	visibility: hidden;
-	// }
-
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-/* #greeting:hover {
-  font-size: 203px;
-} */
-
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
@@ -42,7 +28,6 @@ body {
 
 #home, #about, #projects, #contact {
 	height: 100%;
-	border: 1px solid grey;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -54,7 +39,7 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
-
+	height: 100%;
 }
 
 .flex-container-left {
@@ -62,6 +47,7 @@ body {
 	align-items: center;
 	flex-direction: row;
 	margin-right: 20px;
+	height: 100%;
 }
 
 #topbar {
@@ -166,20 +152,6 @@ a:hover {
 		font-size: 160px;
 	}
 
-	// #clickme {
-	// 	visibility: hidden;
-	// }
-
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-// #greeting:hover {
-//   font-size: 161px;
-// }
-
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
@@ -190,7 +162,6 @@ a:hover {
 
 #home, #about, #projects, #contact {
 	height: 100%;
-	border: 1px solid red;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -201,7 +172,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
-
+	height: 100%;
 }
 
 .flex-container-left {
@@ -209,6 +180,7 @@ a:hover {
 	align-items: center;
 	flex-direction: row;
 	margin-right: 25px;
+	height: 100%;
 }
 
 #topbar {
@@ -307,20 +279,6 @@ a {
 		font-size: 140px;
 	}
 
-	// #clickme {
-	// 	visibility: hidden;
-	// }
-
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-// #greeting:hover {
-//   font-size: 161px;
-// }
-
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
@@ -331,7 +289,6 @@ a {
 
 #home, #about, #projects, #contact {
 	height: 100%;
-	border: 1px solid green;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -342,7 +299,7 @@ a {
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
-
+	height: 100%;
 }
 
 .flex-container-left {
@@ -350,6 +307,7 @@ a {
 	align-items: center;
 	flex-direction: row;
 	margin-right: 25px;
+	height: 100%;
 }
 
 #navbar {
@@ -448,20 +406,6 @@ a {
 		font-size: 140px;
 	}
 
-	// #clickme {
-	// 	visibility: hidden;
-	// }
-
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-/* #greeting:hover {
-  font-size: 203px;
-} */
-
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
@@ -471,8 +415,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 150%;
-	border: 1px solid yellow;
+	height: 100%;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -483,6 +426,7 @@ a {
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
+	height: 100%;
 }
 
 .flex-container-left {
@@ -490,6 +434,7 @@ a {
 	align-items: center;
 	flex-direction: row;
 	margin-right: 30px;
+	height: 100%;
 }
 
 #topbar {
@@ -587,20 +532,6 @@ a {
 		font-size: 100px;
 	}
 
-	// #clickme {
-	// 	visibility: hidden;
-	// }
-
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-/* #greeting:hover {
-  font-size: 203px;
-} */
-
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
 	color: #D8D8D8;
@@ -610,9 +541,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 175%;
-	border: 1px solid blue;
-	// height: 100vh;
+	height: 100%;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -623,13 +552,14 @@ a {
 	display: inline-block;
 	align-items: center;
 	flex-direction: row;
-
+	height: 100%;
 }
 
 .flex-container-left {
 	display: inline-block;
 	align-items: left;
 	flex-direction: row;
+	height: 100%;
 	// margin-right: 20px;
 }
 
@@ -731,20 +661,8 @@ a {
 
 	#greeting:hover {
 		font-size: 95px;
-	}
-	// #clickme {
-	// 	visibility: hidden;
-	// }
+}
 
-	// #clickme.hover {
-	// 	position: absolute;
-	// 	visibility: visible;
-
-	// }
-
-/* #greeting:hover {
-  font-size: 203px;
-} */
 
 #aboutinfo, #projectsinfo, #contactinfo {
 	font-family: Helvetica, sans-serif;
@@ -755,9 +673,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 175%;
-	border: 1px solid pink;
-	// height: 100vh;
+	height: 100%;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -768,13 +684,14 @@ a {
 	display: inline-block;
 	align-items: center;
 	flex-direction: row;
-
+	height: 100%;
 }
 
 .flex-container-left {
 	display: inline-block;
 	align-items: center;
 	flex-direction: row;
+	height: 100%;
 	// margin-right: 20px;
 }
 
@@ -934,11 +851,7 @@ a {
 }
 
 #home, #about, #projects, #contact {
-	height: 200%;
-	border: 1px solid purple;
-	// height: 100vh;
-	// margin-top: 10px;
-	// margin-bottom: 10px;
+	height: 100%;
 }
 
 .abouttext, .projectstext, .contacttext {
@@ -949,12 +862,14 @@ a {
 	display: inline-block;
 	align-items: center;
 	flex-direction: row;
+	height: 100%;
 }
 
 .flex-container-left {
 	display: inline-block;
 	align-items: center;
 	flex-direction: row;
+	height: 100%;
 	// margin-right: 20px;
 }
 
