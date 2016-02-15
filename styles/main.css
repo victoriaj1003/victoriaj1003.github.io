@@ -14,9 +14,6 @@ body {
 #greeting:hover {
   font-size: 200px; }
 
-/* #greeting:hover {
-  font-size: 203px;
-} */
 #aboutinfo, #projectsinfo, #contactinfo {
   font-family: Helvetica, sans-serif;
   color: #D8D8D8;
@@ -416,9 +413,6 @@ a:hover {
   #greeting:hover {
     font-size: 100px; }
 
-  /* #greeting:hover {
-    font-size: 203px;
-  } */
   #aboutinfo, #projectsinfo, #contactinfo {
     font-family: Helvetica, sans-serif;
     color: #D8D8D8;
