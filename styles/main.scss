@@ -1,6 +1,11 @@
 body {
   overflow: hidden;
+  overflow: -webkit-hidden;
 }
+
+// #bodywrapper {
+// 	overflow: hidden;
+// }
 
 .wrapper {
 	// display: -webkit-flex;
@@ -9,7 +14,6 @@ body {
 	// flex-direction: column;
 	margin-left: 20px;
 	margin-right: 20px;
-	// height: 100%;
 }
 
 #topbar {
@@ -155,8 +159,8 @@ a:hover {
 .wrapper {
 	// display: -webkit-flex;
 	// display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
+	// -webkit-flex-direction: column;
+	// flex-direction: column;
 	margin-left: 15px;
 	margin-right: 15px;
 	// height: 100%;
@@ -301,6 +305,7 @@ a {
 	margin-left: 15px;
 	margin-right: 15px;
 	// height: 100%;
+	overflow: hidden;
 }
 
 #topbar {

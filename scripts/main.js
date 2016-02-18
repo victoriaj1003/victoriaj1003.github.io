@@ -6,6 +6,7 @@ function unhide() {
 
 	// when hello is clicked, the menu appears, the scroll unlocks and the greeting changes
 	document.body.style.overflow = "visible";
+	// document.getElementById('bodywrapper').style.overflow = "visible";
 	  
 	document.getElementById('greeting').innerHTML = "i'm victoria";
 		$("#greeting").css({"cursor":"default",});
@@ -23,7 +24,7 @@ $( document ).ready(function() {
 		if($(window).width() < 523) {
 			$("#navbar").hide();
 			$("#burger").hide();
-			console.log("burger showing");
+			console.log("burger showing (but invisible)");
 		} else {
 			$("#burger").hide();
 			$("#navbar").show();
