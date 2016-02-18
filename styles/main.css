@@ -5,42 +5,6 @@ body {
   margin-left: 20px;
   margin-right: 20px; }
 
-#greeting {
-  font-family: Helvetica, sans-serif;
-  color: #F24A70;
-  font-size: 200px;
-  cursor: pointer; }
-
-#greeting:hover {
-  font-size: 200px; }
-
-#aboutinfo, #projectsinfo, #contactinfo {
-  font-family: Helvetica, sans-serif;
-  color: #D8D8D8;
-  font-size: 200px;
-  text-align: right;
-  margin-right: 10px; }
-
-#home, #about, #projects, #contact {
-  height: 100%; }
-
-.abouttext, .projectstext, .contacttext {
-  font-family: Helvetica, sans-serif;
-  margin-right: 50px; }
-
-.flex-container-right {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  height: 100%; }
-
-.flex-container-left {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin-right: 20px;
-  height: 100%; }
-
 #topbar {
   visibility: hidden; }
 
@@ -82,6 +46,40 @@ a:hover {
 #burger {
   display: block; }
 
+#greeting {
+  font-family: Helvetica, sans-serif;
+  color: #F24A70;
+  font-size: 200px;
+  cursor: pointer; }
+
+#greeting:hover {
+  font-size: 200px; }
+
+#home, #about, #projects, #contact {
+  min-height: 100vh; }
+
+#aboutinfo, #projectsinfo, #contactinfo {
+  font-family: Helvetica, sans-serif;
+  color: #D8D8D8;
+  font-size: 200px;
+  text-align: right;
+  margin-right: 10px; }
+
+.abouttext, .projectstext, .contacttext {
+  font-family: Helvetica, sans-serif;
+  margin-right: 50px; }
+
+.flex-container-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; }
+
+.flex-container-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 20px; }
+
 #artcollector1 {
   width: 350px;
   height: auto;
@@ -107,43 +105,10 @@ a:hover {
 
 @media all and (max-width: 1250px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 15px;
     margin-right: 15px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 160px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 160px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 160px;
-    text-align: right;
-    margin-right: 10px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    height: 100%; }
-
-  .flex-container-left {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 25px;
-    height: 100%; }
 
   #topbar {
     visibility: hidden; }
@@ -182,6 +147,39 @@ a:hover {
 
   #burger {
     display: block; }
+
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 160px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 160px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 160px;
+    text-align: right;
+    margin-right: 10px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; }
+
+  .flex-container-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 25px; }
 
   #artcollector1 {
     width: 300px;
@@ -205,56 +203,10 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 1050px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 15px;
     margin-right: 15px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 140px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 140px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 140px;
-    text-align: right;
-    margin-right: 10px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    height: 100%; }
-
-  .flex-container-left {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 25px;
-    height: 100%; }
-
-  #navbar {
-    text-decoration: none;
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 30px;
-    text-align: right;
-    margin-right: 10px;
-    margin-top: -10px;
-    padding-top: 15px;
-    position: fixed;
-    width: 97%;
-    background-color: white; }
 
   #topbar {
     visibility: hidden; }
@@ -281,6 +233,52 @@ a:hover {
   #burger {
     display: block; }
 
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 140px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 140px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 140px;
+    text-align: right;
+    margin-right: 10px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; }
+
+  .flex-container-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 25px; }
+
+  #navbar {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -10px;
+    padding-top: 15px;
+    position: fixed;
+    width: 97%;
+    background-color: white; }
+
   #artcollector1 {
     width: 250px;
     height: auto;
@@ -303,43 +301,10 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-device-width: 1024px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 10px;
     margin-right: 10px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 140px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 140px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 140px;
-    text-align: right;
-    margin-right: 15px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    height: 100%; }
-
-  .flex-container-left {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 30px;
-    height: 100%; }
 
   #topbar {
     visibility: hidden; }
@@ -378,6 +343,39 @@ a:hover {
 
   #burger {
     display: block; }
+
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 140px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 140px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 140px;
+    text-align: right;
+    margin-right: 15px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; }
+
+  .flex-container-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px; }
 
   #artcollector1 {
     width: 250px;
@@ -401,42 +399,10 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 950px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 12px;
     margin-right: 12px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 100px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 100px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 100px;
-    text-align: left;
-    margin-right: 10px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: inline-block;
-    align-items: center;
-    flex-direction: row;
-    height: 100%; }
-
-  .flex-container-left {
-    display: inline-block;
-    align-items: left;
-    flex-direction: row;
-    height: 100%; }
 
   #topbar {
     visibility: hidden; }
@@ -476,6 +442,38 @@ a:hover {
   #burger {
     display: block; }
 
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 100px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 100px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 100px;
+    text-align: left;
+    margin-right: 10px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: inline-block;
+    align-items: center;
+    flex-direction: row; }
+
+  .flex-container-left {
+    display: inline-block;
+    align-items: left;
+    flex-direction: row; }
+
   #artcollector1 {
     width: 300px;
     height: auto;
@@ -498,42 +496,10 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 768px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 5px;
     margin-right: 5px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 95px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 95px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 100px;
-    text-align: left;
-    margin-right: 10px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: inline-block;
-    align-items: center;
-    flex-direction: row;
-    height: 100%; }
-
-  .flex-container-left {
-    display: inline-block;
-    align-items: center;
-    flex-direction: row;
-    height: 100%; }
 
   #topbar {
     visibility: hidden; }
@@ -616,6 +582,38 @@ a:hover {
   #menuItems a:hover {
     color: #F24A70; }
 
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 95px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 95px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 100px;
+    text-align: left;
+    margin-right: 10px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: inline-block;
+    align-items: center;
+    flex-direction: row; }
+
+  .flex-container-left {
+    display: inline-block;
+    align-items: center;
+    flex-direction: row; }
+
   #artcollector1 {
     width: 300px;
     height: auto;
@@ -638,42 +636,10 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 400px) {
   .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin-left: 5px;
     margin-right: 5px; }
-
-  #greeting {
-    font-family: Helvetica, sans-serif;
-    color: #F24A70;
-    font-size: 85px;
-    cursor: pointer; }
-
-  #greeting:hover {
-    font-size: 85px; }
-
-  #aboutinfo, #projectsinfo, #contactinfo {
-    font-family: Helvetica, sans-serif;
-    color: #D8D8D8;
-    font-size: 85px;
-    text-align: top;
-    margin-right: 10px; }
-
-  #home, #about, #projects, #contact {
-    height: 100%; }
-
-  .abouttext, .projectstext, .contacttext {
-    font-family: Helvetica, sans-serif; }
-
-  .flex-container-right {
-    display: inline-block;
-    align-items: center;
-    flex-direction: row;
-    height: 100%; }
-
-  .flex-container-left {
-    display: inline-block;
-    align-items: center;
-    flex-direction: row;
-    height: 100%; }
 
   #topbar {
     visibility: hidden; }
@@ -755,6 +721,38 @@ a:hover {
 
   #menuitems a:hover {
     color: #F24A70; }
+
+  #greeting {
+    font-family: Helvetica, sans-serif;
+    color: #F24A70;
+    font-size: 85px;
+    cursor: pointer; }
+
+  #greeting:hover {
+    font-size: 85px; }
+
+  #home, #about, #projects, #contact {
+    min-height: 100vh; }
+
+  #aboutinfo, #projectsinfo, #contactinfo {
+    font-family: Helvetica, sans-serif;
+    color: #D8D8D8;
+    font-size: 85px;
+    text-align: top;
+    margin-right: 10px; }
+
+  .abouttext, .projectstext, .contacttext {
+    font-family: Helvetica, sans-serif; }
+
+  .flex-container-right {
+    display: inline-block;
+    align-items: center;
+    flex-direction: row; }
+
+  .flex-container-left {
+    display: inline-block;
+    align-items: center;
+    flex-direction: row; }
 
   #artcollector1 {
     width: 250px;
