@@ -1,5 +1,6 @@
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  overflow: -webkit-hidden; }
 
 .wrapper {
   margin-left: 20px;
@@ -107,8 +108,6 @@ a:hover {
 
 @media all and (max-width: 1250px) {
   .wrapper {
-    -webkit-flex-direction: column;
-    flex-direction: column;
     margin-left: 15px;
     margin-right: 15px; }
 
@@ -208,7 +207,8 @@ a:hover {
 @media all and (max-width: 1050px) {
   .wrapper {
     margin-left: 15px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    overflow: hidden; }
 
   #topbar {
     visibility: hidden; }
