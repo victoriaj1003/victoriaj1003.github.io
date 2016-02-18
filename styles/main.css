@@ -70,14 +70,20 @@ a:hover {
   margin-right: 50px; }
 
 .flex-container-right {
-  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
+  display: flex;
   align-items: center;
   flex-direction: row-reverse; }
 
 .flex-container-left {
-  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
+  display: flex;
   align-items: center;
   flex-direction: row;
   margin-right: 20px; }
@@ -145,6 +151,9 @@ a:hover {
     padding: 5px;
     font-size: 30px; }
 
+  a:hover {
+    color: #F24A70; }
+
   #burger {
     display: block; }
 
@@ -171,14 +180,20 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row-reverse; }
 
   .flex-container-left {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
     margin-right: 25px; }
@@ -206,8 +221,7 @@ a:hover {
 @media all and (max-width: 1050px) {
   .wrapper {
     margin-left: 15px;
-    margin-right: 15px;
-    overflow: hidden; }
+    margin-right: 15px; }
 
   #topbar {
     visibility: hidden; }
@@ -230,6 +244,9 @@ a:hover {
     color: #D8D8D8;
     padding: 5px;
     font-size: 30px; }
+
+  a:hover {
+    color: #F24A70; }
 
   #burger {
     display: block; }
@@ -257,14 +274,20 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row-reverse; }
 
   .flex-container-left {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
     margin-right: 25px; }
@@ -342,6 +365,9 @@ a:hover {
     padding: 5px;
     font-size: 25px; }
 
+  a:hover {
+    color: #F24A70; }
+
   #burger {
     display: block; }
 
@@ -368,14 +394,20 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row-reverse; }
 
   .flex-container-left {
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
     margin-right: 30px; }
@@ -440,6 +472,9 @@ a:hover {
     padding: 5px;
     font-size: 25px; }
 
+  a:hover {
+    color: #F24A70; }
+
   #burger {
     display: block; }
 
@@ -466,14 +501,22 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
 
   .flex-container-left {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: left;
-    flex-direction: row; }
+    align-items: left; }
 
   #artcollector1 {
     width: 300px;
@@ -497,8 +540,6 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 768px) {
   .wrapper {
-    -webkit-flex-direction: column;
-    flex-direction: column;
     margin-left: 5px;
     margin-right: 5px; }
 
@@ -606,14 +647,22 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
 
   .flex-container-left {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
 
   #artcollector1 {
     width: 300px;
@@ -637,8 +686,6 @@ a:hover {
     color: #F24A70; } }
 @media all and (max-width: 400px) {
   .wrapper {
-    -webkit-flex-direction: column;
-    flex-direction: column;
     margin-left: 5px;
     margin-right: 5px; }
 
@@ -746,14 +793,22 @@ a:hover {
     font-family: Helvetica, sans-serif; }
 
   .flex-container-right {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
 
   .flex-container-left {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     display: inline-block;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
 
   #artcollector1 {
     width: 250px;
