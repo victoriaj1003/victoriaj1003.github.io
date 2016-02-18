@@ -22,7 +22,7 @@ $( document ).ready(function() {
 
 		if($(window).width() < 523) {
 			$("#navbar").hide();
-			$("#burger").show();
+			$("#burger").hide();
 			console.log("burger showing");
 		} else {
 			$("#burger").hide();
