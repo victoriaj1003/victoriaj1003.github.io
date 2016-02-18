@@ -1,6 +1,5 @@
 body {
-  overflow: hidden;
-  overflow: -webkit-hidden; }
+  overflow: hidden; }
 
 .wrapper {
   margin-left: 20px;
