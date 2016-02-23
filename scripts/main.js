@@ -1,18 +1,18 @@
 
 
-// function unhide() {
+function unhide() {
 	// check viewport width
-	// var intViewportWidth = window.innerWidth;
+	var intViewportWidth = window.innerWidth;
 
 	// when hello is clicked, the menu appears, the scroll unlocks and the greeting changes
 	// document.body.style.overflow = "visible";
 	// document.getElementById('bodywrapper').style.overflow = "visible";
 	  
-	// document.getElementById('greeting').innerHTML = "i'm victoria";
-	// 	$("#greeting").css({"cursor":"default",});
+	document.getElementById('greeting').innerHTML = "i'm victoria";
+		$("#greeting").css({"cursor":"default",});
 
 		// document.getElementById('topbar').style.visibility = 'visible';
-// }
+}
 
 
 
