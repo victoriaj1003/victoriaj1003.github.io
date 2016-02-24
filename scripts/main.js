@@ -1,28 +1,34 @@
 
 
-function unhide() {
+// function unhide() {
 	// check viewport width
-	var intViewportWidth = window.innerWidth;
+	// var intViewportWidth = window.innerWidth;
 
 	// when hello is clicked, the menu appears, the scroll unlocks and the greeting changes
 	// document.body.style.overflow = "visible";
 	// document.getElementById('bodywrapper').style.overflow = "visible";
 	  
-	document.getElementById('greeting').innerHTML = "i'm victoria";
-		$("#greeting").css({"cursor":"default",});
+	// document.getElementById('greeting').innerHTML = "i'm victoria";
+	// 	$("#greeting").css({"cursor":"default",});
 
 		// document.getElementById('topbar').style.visibility = 'visible';
-}
+// }
 
 
 
 $( document ).ready(function() {
 	console.log("ready freddy");
 
-	// $(window).load() 
-		// $("#greeting2").fadeIn(6000);
-		// 	console.log("greeting faded in");
+	$( window ).scroll(function() {
+		console.log("scroll happened");
+
+		$( "#greeting" ).html("i'm victoria").fadeIn(3000);
+		console.log("greeting changed");
+
 		
+		$( "#topbar" ).css({"visibility":"visible"})
+		
+	});
 	
 	function sizeMatters() {
 
