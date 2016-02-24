@@ -2,6 +2,9 @@
   margin-left: 20px;
   margin-right: 20px; }
 
+#topbar {
+  visibility: hidden; }
+
 #navbar {
   text-decoration: none;
   font-family: Helvetica, sans-serif;
@@ -40,11 +43,10 @@ a:hover {
 #burger {
   display: block; }
 
-#greeting, #greeting2 {
+#greeting {
   font-family: Helvetica, sans-serif;
   color: #F24A70;
-  font-size: 200px;
-  cursor: pointer; }
+  font-size: 200px; }
 
 #greeting:hover {
   font-size: 200px; }
@@ -154,8 +156,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 160px;
-    cursor: pointer; }
+    font-size: 160px; }
 
   #greeting:hover {
     font-size: 160px; }
@@ -248,8 +249,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 140px;
-    cursor: pointer; }
+    font-size: 140px; }
 
   #greeting:hover {
     font-size: 140px; }
@@ -368,8 +368,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 140px;
-    cursor: pointer; }
+    font-size: 140px; }
 
   #greeting:hover {
     font-size: 140px; }
@@ -475,8 +474,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 100px;
-    cursor: pointer; }
+    font-size: 100px; }
 
   #greeting:hover {
     font-size: 100px; }
@@ -621,8 +619,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 95px;
-    cursor: pointer; }
+    font-size: 95px; }
 
   #greeting:hover {
     font-size: 95px; }
@@ -767,8 +764,7 @@ a:hover {
   #greeting {
     font-family: Helvetica, sans-serif;
     color: #F24A70;
-    font-size: 85px;
-    cursor: pointer; }
+    font-size: 85px; }
 
   #greeting:hover {
     font-size: 85px; }
