@@ -43,7 +43,7 @@ a:hover {
 #burger {
   display: block; }
 
-#greeting {
+#greeting, #greeting2 {
   font-family: Helvetica, sans-serif;
   color: #F24A70;
   font-size: 200px; }
