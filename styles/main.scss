@@ -45,7 +45,7 @@ a {
 	color: #D8D8D8;
 	padding: 5px;
 	font-size: 50px;
-} 
+}
 
 	a:hover {
 		color: #F24A70;
@@ -80,7 +80,10 @@ a {
 
 .abouttext, .projectstext, .contacttext {
 	font-family: Helvetica, sans-serif;
+  font-size: 1.25em;
+  color: #00171F;
 	margin-right: 50px;
+
 }
 
 .flex-container-right {
@@ -301,7 +304,7 @@ a {
 	color: #D8D8D8;
 	padding: 5px;
 	font-size: 30px;
-} 
+}
 	a:hover {
 		color: #F24A70;
 	}
@@ -714,7 +717,7 @@ a {
 	color: #D8D8D8;
 	padding: 5px;
 	font-size: 25px;
-} 
+}
 
 #burger {
 	color: #D8D8D8;
@@ -734,7 +737,7 @@ a {
 }
 
 #menuItems {
-	width: 65px;    
+	width: 65px;
 	display: none;
   position: absolute;
   text-align: right;
@@ -892,7 +895,7 @@ a {
 	color: #D8D8D8;
 	padding: 5px;
 	font-size: 20px;
-} 
+}
 
 #burger {
 	color: #D8D8D8;
@@ -913,7 +916,7 @@ a {
 
 #menuItems {
 	// border: 1px solid black;
-	width: 65px;    
+	width: 65px;
 	display: none;
   position: absolute;
   text-align: right;

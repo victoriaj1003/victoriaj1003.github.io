@@ -63,6 +63,8 @@ a:hover {
 
 .abouttext, .projectstext, .contacttext {
   font-family: Helvetica, sans-serif;
+  font-size: 1.25em;
+  color: #00171F;
   margin-right: 50px; }
 
 .flex-container-right {
