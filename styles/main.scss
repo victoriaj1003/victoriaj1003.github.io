@@ -111,7 +111,7 @@ a {
 	width: 350px;
 	height: auto;
 	box-shadow: none;
-	cursor: pointer;
+	cursor: default;
 }
 
 #acdescription {
@@ -121,10 +121,20 @@ a {
 #discovermycity1 {
 	width: 350px;
 	height: auto;
-	cursor: pointer;
+	cursor: default;
 }
 
 #dmcdescription {
+	display: inline-block;
+}
+
+#hai1 {
+	width: 350px;
+	height: auto;
+	cursor: pointer;
+}
+
+#haidescription {
 	display: inline-block;
 }
 
@@ -246,6 +256,7 @@ a {
 	height: auto;
 	box-shadow: none;
 	// display: none;
+  cursor: default;
 }
 
 		#acdescription {

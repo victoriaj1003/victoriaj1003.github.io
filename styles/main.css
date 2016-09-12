@@ -90,7 +90,7 @@ a:hover {
   width: 350px;
   height: auto;
   box-shadow: none;
-  cursor: pointer; }
+  cursor: default; }
 
 #acdescription {
   display: inline-block; }
@@ -98,9 +98,17 @@ a:hover {
 #discovermycity1 {
   width: 350px;
   height: auto;
-  cursor: pointer; }
+  cursor: default; }
 
 #dmcdescription {
+  display: inline-block; }
+
+#hai1 {
+  width: 350px;
+  height: auto;
+  cursor: pointer; }
+
+#haidescription {
   display: inline-block; }
 
 .fa {
@@ -198,7 +206,8 @@ a:hover {
   #artcollector1 {
     width: 300px;
     height: auto;
-    box-shadow: none; }
+    box-shadow: none;
+    cursor: default; }
 
   #acdescription {
     display: inline-block; }
