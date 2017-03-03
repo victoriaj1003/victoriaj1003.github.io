@@ -111,6 +111,14 @@ a:hover {
 #haidescription {
   display: inline-block; }
 
+#binarything {
+  width: 350px;
+  height: auto;
+  cursor: pointer; }
+
+#binarydescription {
+  display: inline-block; }
+
 .fa {
   color: #D8D8D8; }
 
@@ -228,6 +236,14 @@ a:hover {
   #haidescription {
     display: inline-block; }
 
+  #binarything {
+    width: 300px;
+    height: auto;
+    cursor: pointer; }
+
+  #binarydescription {
+    display: inline-block; }
+
   .fa {
     color: #D8D8D8; }
 
@@ -334,7 +350,20 @@ a:hover {
   #dmcdescription {
     display: inline-block; }
 
+  #hai1 {
+    width: 250px;
+    height: auto;
+    cursor: pointer; }
+
   #haidescription {
+    display: inline-block; }
+
+  #binarything {
+    width: 250px;
+    height: auto;
+    cursor: pointer; }
+
+  #binarydescription {
     display: inline-block; }
 
   .fa {
@@ -448,6 +477,13 @@ a:hover {
     height: auto; }
 
   #haidescription {
+    display: inline-block; }
+
+  #binarything {
+    width: 250px;
+    height: auto; }
+
+  #binarydescription {
     display: inline-block; }
 
   .fa {
@@ -567,6 +603,13 @@ a:hover {
     height: auto; }
 
   #haidescription {
+    display: inline-block; }
+
+  #binarything {
+    width: 300px;
+    height: auto; }
+
+  #binarydescription {
     display: inline-block; }
 
   .fa {
@@ -721,6 +764,13 @@ a:hover {
   #haidescription {
     display: inline-block; }
 
+  #binarything {
+    width: 300px;
+    height: auto; }
+
+  #binarydescription {
+    display: inline-block; }
+
   .fa {
     color: #D8D8D8; }
 
@@ -870,6 +920,13 @@ a:hover {
     height: auto; }
 
   #haidescription {
+    display: inline-block; }
+
+  #binarything {
+    width: 250px;
+    height: auto; }
+
+  #binarydescription {
     display: inline-block; }
 
   .fa {
